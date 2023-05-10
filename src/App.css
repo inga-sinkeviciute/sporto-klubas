@@ -1,0 +1,250 @@
+body {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(79deg, #6168fc, #ff349a 48%, #f8bdda),
+    url("./images/pngtree-fitness-dumbbell-pattern-cartoon-style-png-image_5227940.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  background-color: #f8bdda1c;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 3rem;
+    margin: 2rem auto;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.4rem 0;
+  font-size: large;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+button {
+  width: 350px;
+  border: none;
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #6168fc;
+  font-size: larger;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(0.9);
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  background-color: #77b5ff;
+}
+
+.Header ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.Header ul li a:hover {
+  text-decoration: none;
+  color: #6168fc;
+  background-color: transparent;
+}
+
+.fa-dumbbell {
+  font-size: 1.5rem;
+}
+
+.Table {
+  display: block;
+  height: 450px;
+  overflow: auto;
+  flex-direction: column;
+  border-collapse: separate;
+  width: 1000px;
+  border-spacing: 0;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8bdda;
+}
+
+th,
+td {
+  width: 20%;
+  text-align: left;
+}
+
+th {
+  color: white;
+  background-color: #f8bdda;
+  padding: 10px 20px;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+tbody input {
+  box-sizing: border-box;
+}
+
+tbody {
+  background-color: #f8bdda3a;
+}
+
+.Table::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+.Table::-webkit-scrollbar-thumb {
+  background-color: #f8bdda;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 1000px;
+    padding: 3rem;
+    margin: 3rem auto;
+  }
+}
+
+.btn {
+  width: 50px;
+  border: none;
+  background-color: #f8bddaf4;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: small;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  background-color: #77b5ff;
+}
+
+.edit-user-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #f8bddaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 2rem;
+    margin: 1rem auto;
+  }
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-user-form input {
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.edit-user-form label {
+  text-align: left;
+  padding: 0.2rem 0;
+  font-size: medium;
+}
+
+.but {
+  width: 350px;
+  border: none;
+  background-color: white;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #6168fc;
+  font-size: medium;
+  transition: all 0.2s ease-in-out;
+}
